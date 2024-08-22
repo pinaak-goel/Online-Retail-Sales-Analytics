@@ -1,0 +1,12 @@
+online_retail_sales:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/gcp/airflow_service_account.json
+    project: pure-talent-433206-e6
+    dataset: online_retail_sales
+    threads: 1
+    timeout_seconds: 300
+    location: US
