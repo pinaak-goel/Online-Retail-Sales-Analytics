@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: online_retail_sales
+    database: pure-talent-433206-e6
+    tables:
+      - name: raw_invoices
+      - name: country

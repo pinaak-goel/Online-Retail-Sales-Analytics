@@ -1,3 +1,7 @@
+.astro
+.airflowignore
+.dockerignore
+.gitignore
 .git
 .env
 .DS_Store

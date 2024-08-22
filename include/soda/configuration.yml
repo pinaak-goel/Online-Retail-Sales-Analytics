@@ -1,0 +1,14 @@
+data_source online_retail_sales:
+  type: bigquery
+  connection:
+    account_info_json_path: /usr/local/airflow/include/gcp/airflow_service_account.json
+    auth_scopes:
+    - https://www.googleapis.com/auth/bigquery
+    - https://www.googleapis.com/auth/cloud-platform
+    - https://www.googleapis.com/auth/drive
+    project_id: 'pure-talent-433206-e6'
+    dataset: online_retail_sales
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: 29d9c60c-fd81-4f66-8f10-ee7cb541ce24
+  api_key_secret: OTvpgoUfDgP4vxb7UqI380Lgvw2qQTJTXMcy9h24CcBvWzcNAmcYSg
