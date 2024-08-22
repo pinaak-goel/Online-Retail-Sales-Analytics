@@ -5,7 +5,6 @@
 - Overview
 - Prerequisites
 - Setup
-  - Clone the Repository
   - Set Up the Environment
   - Configure Google Cloud Storage
   - Install Required Python Packages
